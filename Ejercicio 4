@@ -1,0 +1,18 @@
+using System;
+
+namespace Practicando
+{
+    class Program
+    {
+            static void Main(string[] args)
+            {
+
+            char letra;
+
+            for (letra = 'Z'; letra >= 'A'; letra--)
+                Console.Write("{0} ", letra);
+            Console.ReadKey();
+        }
+        
+    }
+}
