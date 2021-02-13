@@ -1,0 +1,23 @@
+using System;
+
+namespace Practicando
+{
+    class Program
+    {
+            static void Main(string[] args)
+            {
+
+            int Numeros = 1;
+
+            do
+            {
+                Console.Write(Numeros);
+                Console.Write(",");
+
+                Numeros = Numeros + 1;
+
+            } while (Numeros <= 10);
+        }
+        
+    }
+}
